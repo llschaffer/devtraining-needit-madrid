@@ -22,6 +22,7 @@
         <displayed_when_template/>
         <displayed_when_yesno/>
         <duration/>
+        <is_default>false</is_default>
         <mandatory>true</mandatory>
         <max>1</max>
         <max_weight/>
@@ -37,6 +38,8 @@
         <scale>high</scale>
         <scored>true</scored>
         <script><![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &gt; 100) scaled_result = 5; // else scaled_result = 1;]]></script>
+        <sn_sig_asmt_serial_number/>
+        <sn_sig_asmt_track_progress_in_portal>false</sn_sig_asmt_track_progress_in_portal>
         <source_field/>
         <string_option>wide</string_option>
         <sys_class_name>asmt_metric</sys_class_name>
